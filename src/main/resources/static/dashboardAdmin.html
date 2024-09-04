@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ashok IT</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+	crossorigin="anonymous">
+
+<style>
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: blue;
+	text-align: center;
+}
+</style>
+</head>
+<body>
+
+	<div class="container mt-4">
+
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="/"> <img alt=""
+					src="images/Logo.png" style="width: 100px;">
+				</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item me-4"><a class="nav-link active"
+							aria-current="page" href="/">Java </a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">Python</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">JavaScript</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">SQL</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">php</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">.Net</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">React-Js</a></li>
+						<li class="nav-item me-4"><a class="nav-link" href="dashboard">Angular</a></li>
+
+						<li class="nav-item"><a class="nav-link" href="/">PL-SQL
+						</a></li>
+
+					</ul>
+					<a href="/" class="btn btn-danger me-2">Logout</a>
+					<a href="adminLogin" class="btn btn-danger">Admin</a>
+
+				</div>
+			</div>
+		</nav>
+
+		<div class="row mt-4">
+			<div class="col-sm-4 mb-3 mb-sm-0">
+				<div class="card" style="width: 18rem;">
+					<img src="images/react.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quick example text to build on the
+							card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Start Quiz</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+					<img src="images/java.jpeg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quick example text to build on the
+							card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Start Quiz</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+					<img src="images/sql2.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<p class="card-text">Some quick example text to build on the
+							card title and make up the bulk of the card's content.</p>
+						<a href="#" class="btn btn-primary">Start Quiz</a>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-sm-4 mb-3 mb-sm-0">
+					<div class="card" style="width: 18rem;">
+						<img src="images/angular.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the
+								card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Start Quiz</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+						<img src="images/python.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the
+								card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Start Quiz</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="card" style="width: 18rem;">
+						<img src="images/sql2.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<p class="card-text">Some quick example text to build on the
+								card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Start Quiz</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col-sm-4 mb-3 mb-sm-0">
+						<div class="card" style="width: 18rem;">
+							<img src="images/js.jpeg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Start Quiz</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+							<img src="images/net.jpeg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Start Quiz</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="card" style="width: 18rem;">
+							<img src="images/plsql.jpeg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<p class="card-text">Some quick example text to build on the
+									card title and make up the bulk of the card's content.</p>
+								<a href="#" class="btn btn-primary">Start Quiz</a>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+
+
+			</div>
+
+
+			<script
+				src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+				crossorigin="anonymous"></script>
+</body>
+
+
+
+<div class="footer">
+	<p>© 2023 Copyright: @Ashok IT</p>
+</div>
+
+
+</html>
